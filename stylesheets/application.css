@@ -184,7 +184,7 @@ input[type="week"] {
   padding: 2px 3px;
   text-align: left;
   font-size: 13px;
-  font-family: Arial, "Liberation Sans", FreeSans, sans-serif;
+  font-family: Arial, "Liberation Sans", FreeSans, 'Hiragino Kaku Gothic Pro','ヒラギノ角ゴ Pro W3', Meiryo, 'メイリオ', sans-serif;
   height: 1.8em;
   vertical-align: top;
   *padding-top: 2px;
@@ -338,7 +338,7 @@ optgroup {
   color: black;
   font-style: normal;
   font-weight: normal;
-  font-family: Arial, "Liberation Sans", FreeSans, sans-serif;
+  font-family: Arial, "Liberation Sans", FreeSans, 'Hiragino Kaku Gothic Pro','ヒラギノ角ゴ Pro W3', Meiryo, 'メイリオ', sans-serif;
 }
 optgroup::-moz-focus-inner {
   border: 0;
@@ -381,7 +381,7 @@ optgroup::-moz-focus-inner {
   color: black;
   padding: 2px 3px 1px;
   font-size: 13px;
-  font-family: Arial, sans-serif;
+  font-family: Arial, 'Hiragino Kaku Gothic Pro','ヒラギノ角ゴ Pro W3', Meiryo, 'メイリオ', sans-serif;
   vertical-align: top;
 }
 
@@ -511,13 +511,13 @@ tr.even.priority-lowest td {
 }
 
 body {
-  font: normal 14px/1.5 'Open Sans', sans-serif;
+  font-family: 'Open Sans', 'Hiragino Kaku Gothic Pro','ヒラギノ角ゴ Pro W3', Meiryo, 'メイリオ', sans-serif;
   font-size: 14px;
   color: #484848;
 }
 
 h1, h2, h3, h4 {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Open Sans', 'Hiragino Kaku Gothic Pro','ヒラギノ角ゴ Pro W3', Meiryo, 'メイリオ', sans-serif;
   font-weight: 300;
 }
 
@@ -594,13 +594,13 @@ code {
   margin-left: 8px;
 }
 #quick-search input {
-  background: #2d2d2d;
-  border: none;
+  background: #403F3F;
   color: #FFF;
   padding: 0px 6px;
-  height: 2.4em;
+  height: 2.2em;
   margin-left: 4px;
   display: inline-block;
+  
 }
 #quick-search label {
   line-height: 2.1;
@@ -770,4 +770,11 @@ table.query-columns td.buttons input[type=button] {
 
 select[multiple="multiple"] {
   height: auto !important;
+}
+
+h2, .wiki h1 {font-size: 24px;}
+h3, .wiki h2 {font-size: 20px;}
+h4, .wiki h3 {font-size: 16px;}
+.wiki h1, h2, h3 {
+  border-bottom: 1px solid #ccc
 }
