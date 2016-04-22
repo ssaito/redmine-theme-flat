@@ -776,3 +776,18 @@ h4, .wiki h3 {font-size: 16px;}
 .wiki h1, h2, h3 {
   border-bottom: 1px solid #ccc
 }
+
+div.wiki thead th {
+	padding: 10px;
+	font-weight: bold;
+	vertical-align: top;
+	color: #fff;
+	background: #8A8788;
+}
+div.wiki td {
+	padding: 5px;
+	vertical-align: top;
+}
+div.wiki .even {
+	background: #f3f6f7;
+}
