@@ -776,5 +776,10 @@ h2, .wiki h1 {font-size: 24px;}
 h3, .wiki h2 {font-size: 20px;}
 h4, .wiki h3 {font-size: 16px;}
 .wiki h1, h2, h3 {
-  border-bottom: 1px solid #ccc
+  border-bottom: 1px dotted #444
 }
+
+hr {
+    height: 1.5px
+}
+
