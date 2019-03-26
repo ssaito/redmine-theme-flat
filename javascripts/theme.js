@@ -1,8 +1,5 @@
 $(function() {
 
-  // quick-search を fess の /search に変更
-  $("#quick-search").find("form").attr("action","/search");
-    
   $(document).ready(function() {
     var update = $('#update')
     var close = $("<div>", {'class': "update-close"}).text('x');
